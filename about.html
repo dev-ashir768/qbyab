@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About - Q by Aleksandra Baranova</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="author" content="ashirarif.com" />
+    <meta name="keywords" content="ecommerce,fashion,store" />
+    <meta name="description" content="Q by Aleksandra Baranova" />
+
+    <link rel="icon" href="/images/favicon.png" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/vendor.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/sweetalert2.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"rel="stylesheet"
+    />
+  </head>
+
+  <body class="about-page">
+    <div class="preloader text-white fs-6 text-uppercase overflow-hidden"></div>
+
+    <nav
+      class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center"
+    >
+      <div class="container-fluid">
+        <div class="row justify-content-between align-items-center w-100">
+          <div class="col-auto">
+            <a class="navbar-brand text-white" href="/">
+              <img src="images/logo.png" alt="logo" width="150" />
+            </a>
+          </div>
+
+          <div class="col-auto">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="collection">Collection</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="lookbook">Lookbook</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="about-hero jarallax position-relative overflow-hidden"
+      data-jarallax
+      data-speed="0.45"
+    >
+      <div
+        class="jarallax-img"
+        style="
+          background-image: url('images/about-hero-imag.jpeg');
+          background-size: cover;
+          background-position: center 20%;
+        "
+      ></div>
+
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="
+          background: linear-gradient(
+            135deg,
+            rgba(17, 17, 17, 0.9) 0%,
+            rgba(17, 17, 17, 0.6) 50%,
+            rgba(140, 144, 126, 0.2) 100%
+          );
+          z-index: 1;
+        "
+      ></div>
+
+      <div class="container position-relative h-100" style="z-index: 2">
+        <div
+          class="row min-vh-100 align-items-center justify-content-center text-center text-white"
+        >
+          <div class="col-lg-10 col-xl-8">
+            <p
+              class="text-uppercase tracking-widest fs-6 opacity-80 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Creative Director & Founder
+            </p>
+            <h1 class="fw-light lh-1" data-aos="fade-up" data-aos-delay="300">
+              <span class="d-block" style="font-size: clamp(4.5rem, 10vw, 8rem)"
+                >Aleksandra</span
+              >
+              <span
+                class="d-block fw-normal mt-2"
+                style="
+                  font-size: clamp(3rem, 8vw, 6rem);
+                  letter-spacing: 0.05em;
+                "
+              >
+                Baranova
+              </span>
+            </h1>
+            <p
+              class="lead mt-5 opacity-90"
+              data-aos="fade-up"
+              data-aos-delay="500"
+              style="max-width: 680px; margin: 0 auto; font-size: 1.2rem"
+            >
+              Western forms. Eastern details. A global perspective on couture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 py-lg-7">
+      <div class="container">
+        <div class="row align-items-center g-5 g-xl-7">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img
+              src="images/aleksandra.jpeg"
+              alt="Aleksandra Baranova"
+              class="img-fluid rounded shadow portrait-img"
+            />
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <h2 class="section-title mb-4">The Designer</h2>
+            <p class="bio-text">
+              Aleksandra Baranova is a globally recognized designer and the
+              creative force behind
+              <strong>Q. by Aleksandra Baranova</strong>. Her relationship with
+              fashion began early; she started her journey as a model at the age
+              of 12, gaining an intimate understanding of how fabric moves on
+              the body and how clothing influences character.
+            </p>
+            <p class="bio-text">
+              Today, she merges this intuitive knowledge with formal academic
+              rigor. Her multidisciplinary background in fashion design,
+              branding, and visual storytelling has shaped a signature aesthetic
+              where Western structural forms meet the intricate, mindful
+              detailing of the East.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5 py-lg-7">
+      <div class="container">
+        <div
+          class="row flex-column-reverse flex-lg-row align-items-center g-5 g-xl-7"
+        >
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2 class="section-title mb-4">Philosophy & Travel</h2>
+            <p class="bio-text">
+              For Aleksandra, fashion is both art and emotion, crafted with deep
+              intention. Her design approach is heavily influenced by her
+              extensive travels, creating a unique dialogue between cultures.
+            </p>
+            <p class="bio-text">
+              She views her brand as a platform for awareness. In her own words:
+              "Fashion is a sign language. It comes from the body to the piece
+              of clothing, and then to the huge industry driven by social
+              climate. We should learn to speak it if we want to impact social
+              change."
+            </p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <img
+              src="images/aleksandra-with-award.jpeg"
+              alt="Aleksandra in atelier"
+              class="img-fluid rounded shadow portrait-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 py-lg-7">
+      <div class="container-fluid px-4 px-lg-7">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h2 class="section-title mb-5">The Manifesto</h2>
+            <blockquote
+              class="philosophy-quote text-muted opacity-90"
+              data-aos="fade-up"
+            >
+              “We should learn to speak the language of fashion,<br />
+              if we want our individuality to be heard<br />
+              in the massive orchestra of globalization.”
+            </blockquote>
+            <p
+              class="mt-5 bio-text opacity-80 mx-auto"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              — Aleksandra Baranova
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5 py-lg-7">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <h2 class="section-title text-center mb-5">Education</h2>
+            <div class="row g-4 text-center justify-content-center">
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <h5 class="fw-normal">London</h5>
+                <p class="text-muted">
+                  Istituto Marangoni<br />
+                  <small>Fashion Design</small>
+                </p>
+              </div>
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <h5 class="fw-normal">Milan</h5>
+                <p class="text-muted">
+                  Domus Academy<br />
+                  <small>by Nuova Accademia di Belle Arti</small>
+                </p>
+              </div>
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <h5 class="fw-normal">London</h5>
+                <p class="text-muted">
+                  London Metropolitan University<br />
+                  <small>Advanced Studies</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="mt-5">
+      <div class="container">
+        <div class="row d-flex flex-wrap justify-content-between py-5">
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-001">
+              <div class="footer-intro mb-4">
+                <a href="/">
+                  <img src="images/logo.png" alt="logo" width="150" />
+                </a>
+              </div>
+              <p>
+                Where Latvian craftsmanship meets contemporary fashion. Wear the
+                statement.
+              </p>
+              <div class="social-links">
+                <ul class="list-unstyled d-flex flex-wrap gap-3">
+                  <li>
+                    <a href="#" class="text-secondary">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-002">
+              <h5 class="widget-title text-uppercase mb-4">Quick Links</h5>
+              <ul
+                class="menu-list list-unstyled text-uppercase border-animation-left fs-6"
+              >
+                <li class="menu-item">
+                  <a href="/" class="item-anchor">Home</a>
+                </li>
+                <li class="menu-item">
+                  <a href="about" class="item-anchor">About</a>
+                </li>
+                <li class="menu-item">
+                  <a href="collection" class="item-anchor">Collection</a>
+                </li>
+                <li class="menu-item">
+                  <a href="lookbook" class="item-anchor">Lookbook</a>
+                </li>
+                <li class="menu-item">
+                  <a href="contact" class="item-anchor">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-004 border-animation-left">
+              <h5 class="widget-title text-uppercase mb-4">Contact Us</h5>
+              <p>
+                Do you have any questions or suggestions?
+                <a href="mailto:info@qbyab.com" class="item-anchor"
+                  >info@qbyab.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top py-4">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+              <p class="mb-0">
+                © Copyright 2025 Q by Aleksandra Baranova. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/parsley.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>

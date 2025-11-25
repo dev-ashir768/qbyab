@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lookbook- Q by Aleksandra Baranova</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="author" content="ashirarif.com" />
+    <meta name="keywords" content="ecommerce,fashion,store" />
+    <meta name="description" content="Q by Aleksandra Baranova" />
+
+    <link rel="icon" href="/images/favicon.png" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/vendor.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/sweetalert2.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader text-white fs-6 text-uppercase overflow-hidden"></div>
+
+    <nav
+      class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center"
+    >
+      <div class="container-fluid">
+        <div class="row justify-content-between align-items-center w-100">
+          <div class="col-auto">
+            <a class="navbar-brand text-white" href="/">
+              <img src="images/logo.png" alt="logo" width="150" />
+            </a>
+          </div>
+
+          <div class="col-auto">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="collection">Collection</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="lookbook">Lookbook</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="collection-hero jarallax position-relative overflow-hidden"
+      data-jarallax
+      data-speed="0.4"
+    >
+      <div
+        class="jarallax-img"
+        style="
+          background-image: url('images/lookbook-hero-image.jpeg');
+          background-size: cover;
+          background-position: center 20%;
+        "
+      ></div>
+
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="
+          background: linear-gradient(
+            135deg,
+            rgba(17, 17, 17, 0.9) 0%,
+            rgba(17, 17, 17, 0.6) 50%,
+            rgba(140, 144, 126, 0.2) 100%
+          );
+          z-index: 1;
+        "
+      ></div>
+      <div class="container position-relative h-100" style="z-index: 2">
+        <div
+          class="row min-vh-100 align-items-center justify-content-center text-center text-white"
+        >
+          <div class="col-lg-10 col-xl-8">
+            <p
+              class="text-uppercase tracking-widest fs-6 opacity-80 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Visual Stories
+            </p>
+            <h1 class="fw-light lh-1" data-aos="fade-up" data-aos-delay="300">
+              <span class="d-block" style="font-size: clamp(4.5rem, 10vw, 8rem)"
+                >Lookbook</span
+              >
+            </h1>
+            <p
+              class="lead mt-5 opacity-90"
+              data-aos="fade-up"
+              data-aos-delay="500"
+              style="max-width: 680px; margin: 0 auto; font-size: 1.2rem"
+            >
+              Where broken becomes beautiful — through the lens.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 pt-lg-7">
+      <div class="container">
+        <div class="row g-4 g-lg-5">
+          <div class="col-12 text-center mb-7">
+            <h2 class="section-title mb-4">Editorial</h2>
+            <div class="kintsugi-line mx-auto"></div>
+          </div>
+
+          <!-- Full-width editorial images -->
+          <div class="col-12 col-lg-6">
+            <img
+              src="images/lookbook_page-0001.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0001"
+            />
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              src="images/lookbook_page-0002.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0002"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0003.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0003"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0004.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0004"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0005.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0005"
+            />
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              src="images/lookbook_page-0006.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0006"
+            />
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              src="images/lookbook_page-0007.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0007"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0008.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0008"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0009.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0009"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0010.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0010"
+            />
+          </div>
+           <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0011.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0011"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0012.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0012"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              src="images/lookbook_page-0013.jpg"
+              class="w-100 editorial-img"
+              alt="lookbook_page-0013"
+            />
+          </div>
+          <div class="col-12">
+            <img
+              src="images/lookbook-six.jpeg"
+              class="w-100 editorial-img"
+              alt="Editorial Full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="py-5 py-lg-7 bg-dark">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-4">
+            <h2 class="section-title mb-4 text-white">Press</h2>
+            <div class="kintsugi-line mb-5"></div>
+            <p class="lead opacity-90">
+              Featured in the world’s leading publications.
+            </p>
+          </div>
+          <div class="col-lg-8">
+            <div class="row g-4 g-lg-5 justify-content-center">
+              <div class="col-6 col-md-3">
+                <img
+                  src="images/aleksandra.jpeg"
+                  class="w-100 magazine-cover"
+                  alt="Vogue"
+                />
+              </div>
+              <div class="col-6 col-md-3">
+                <img
+                  src="images/aleksandra-with-award.jpeg"
+                  class="w-100 magazine-cover"
+                  alt="Elle"
+                />
+              </div>
+              <div class="col-6 col-md-3">
+                <img
+                  src="images/about-hero-imag.jpeg"
+                  class="w-100 magazine-cover"
+                  alt="L'Officiel"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="py-5 py-lg-7">
+      <div class="container">
+        <div class="text-center mb-7">
+          <h2 class="section-title mb-4">Behind the Seams</h2>
+          <div class="kintsugi-line mx-auto"></div>
+        </div>
+
+        <div class="row g-3 g-lg-4 bts-grid">
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="images/behind-the-scenes-1.jpeg"
+              class="w-100"
+              alt="Fitting"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="images/behind-the-scenes-5.jpeg"
+              class="w-100"
+              alt="Studio"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img src="images/aleksandra.jpeg" class="w-100" alt="Sketch" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="images/behind-the-scenes-3.jpeg"
+              class="w-100"
+              alt="Fabric"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="images/behind-the-scenes-4.jpeg"
+              class="w-100"
+              alt="Golden Thread"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="images/behind-the-scenes-2.jpeg"
+              class="w-100"
+              alt="Model"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="images/behind-the-scenes-6.jpeg"
+              class="w-100"
+              alt="Kintsugi Detail"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="images/aleksandra-with-award.jpeg"
+              class="w-100"
+              alt="Aleksandra at work"
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <footer id="footer" class="mt-5">
+      <div class="container">
+        <div class="row d-flex flex-wrap justify-content-between py-5">
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-001">
+              <div class="footer-intro mb-4">
+                <a href="/">
+                  <img src="images/logo.png" alt="logo" width="150" />
+                </a>
+              </div>
+              <p>
+                Where Latvian craftsmanship meets contemporary fashion. Wear the
+                statement.
+              </p>
+              <div class="social-links">
+                <ul class="list-unstyled d-flex flex-wrap gap-3">
+                  <li>
+                    <a href="#" class="text-secondary">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-002">
+              <h5 class="widget-title text-uppercase mb-4">Quick Links</h5>
+              <ul
+                class="menu-list list-unstyled text-uppercase border-animation-left fs-6"
+              >
+                <li class="menu-item">
+                  <a href="/" class="item-anchor">Home</a>
+                </li>
+                <li class="menu-item">
+                  <a href="about" class="item-anchor">About</a>
+                </li>
+                <li class="menu-item">
+                  <a href="collection" class="item-anchor">Collection</a>
+                </li>
+                <li class="menu-item">
+                  <a href="lookbook" class="item-anchor">Lookbook</a>
+                </li>
+                <li class="menu-item">
+                  <a href="contact" class="item-anchor">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-004 border-animation-left">
+              <h5 class="widget-title text-uppercase mb-4">Contact Us</h5>
+              <p>
+                Do you have any questions or suggestions?
+                <a href="mailto:info@qbyab.com" class="item-anchor"
+                  >info@qbyab.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top py-4">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+              <p class="mb-0">
+                © Copyright 2025 Q by Aleksandra Baranova. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/parsley.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
